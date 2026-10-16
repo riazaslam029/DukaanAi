@@ -20,19 +20,44 @@ Phase 1 establishes a rock-solid, fully typed full-stack foundation with an arch
 
 ---
 
-## 📸 Application Screenshots & Walkthrough
+## 📸 Application Screenshots & Visual Walkthrough
 
-| **1. Store Dashboard & Real-Time KPIs** | **2. 7-Day Revenue vs. Expenses Trend Chart** |
+Explore **DukaanAI** running live with authentic Pakistani Kiryana retail data:
+
+### 1. Store Executive Dashboard
+| 📊 Today's Overview & Live KPIs | 📈 7-Day Revenue & Expense Trend (Recharts) |
 |:---:|:---:|
-| ![Dashboard Overview](docs/screenshots/01_dashboard_overview.png) | ![Revenue Trend](docs/screenshots/02_dashboard_trend_chart.png) |
+| [![Dashboard Overview](docs/screenshots/01_dashboard_overview.png)](docs/screenshots/01_dashboard_overview.png) | [![Revenue Trend](docs/screenshots/02_dashboard_trend_chart.png)](docs/screenshots/02_dashboard_trend_chart.png) |
+| **Figure 1.1: Live Store KPIs**<br>• Real-time tracking: Today's Sales (`Rs. 9,855`), Daily Expenses (`Rs. 950`), Net Profit (`Rs. 54`)<br>• 4 critical low-stock warnings across 25 active retail products<br>• Quick POS checkout and manual expense shortcuts | **Figure 1.2: Trend Analytics & Restock Watchlist**<br>• Interactive Recharts dual-area curve comparing sales against operational costs<br>• Quick-action restock table for items near or below safety thresholds (Lifebuoy, Rooh Afza, Lays) |
 
-| **3. Inventory Catalog & Low-Stock Alerts** | **4. Counter Point of Sale (POS) & Cart** |
+---
+
+### 2. Inventory & Counter Point of Sale (POS)
+| 📦 Catalog & Stock Management | 🛒 Fast Counter Checkout (POS) |
 |:---:|:---:|
-| ![Inventory Management](docs/screenshots/03_inventory_management.png) | ![Point of Sale](docs/screenshots/04_point_of_sale_pos.png) |
+| [![Inventory Management](docs/screenshots/03_inventory_management.png)](docs/screenshots/03_inventory_management.png) | [![Point of Sale](docs/screenshots/04_point_of_sale_pos.png)](docs/screenshots/04_point_of_sale_pos.png) |
+| **Figure 2.1: Inventory Management**<br>• Instant multi-field search (title, barcode, SKU, category)<br>• Category pills filter + single-click Low Stock toggle<br>• Profit margin % calculation per SKU and full CRUD | **Figure 2.2: Point of Sale (POS) Register**<br>• Product cards grid with live unit stocks and instant add-to-cart<br>• Quantity steppers, discount calculator, and customer info<br>• Payment methods: Cash (`Naqd`), JazzCash, EasyPaisa, and Udhaar |
 
-| **5. Operating Expenses Ledger & Breakdown** |
+---
+
+### 3. Business Expenses & Operational Ledger
+| 💸 Operating Expenses Ledger & Heads Breakdown |
 |:---:|
-| ![Business Expenses Ledger](docs/screenshots/05_business_expenses.png) |
+| [![Business Expenses Ledger](docs/screenshots/05_business_expenses.png)](docs/screenshots/05_business_expenses.png) |
+| **Figure 3.1: Expense Tracking & Category Progress Breakdown**<br>• Itemized records for Shop Rent (`Rs. 35,000`), LESCO commercial electricity bills (`Rs. 14,850`), helper wages (`Rs. 6,000`), and carriage<br>• Category spending percentage bars with instant CSV export |
+
+---
+
+### 4. Financial Reports & Store Settings
+| 📑 Profit & Loss (P&L) Executive Summary | 📊 Multi-Bar Daily P&L Chart |
+|:---:|:---:|
+| [![Reports P&L Summary](docs/screenshots/06_reports_pnl_summary.png)](docs/screenshots/06_reports_pnl_summary.png) | [![Daily Chart Tooltip](docs/screenshots/07_reports_daily_chart.png)](docs/screenshots/07_reports_daily_chart.png) |
+| **Figure 4.1: Financial P&L Statement**<br>• Total Revenue (`Rs. 69,200`), Wholesale COGS (`Rs. 62,434`), Net Profit Margin<br>• Single-click CSV data export for Sales, Expenses, and Inventory Valuation | **Figure 4.2: Daily Financial Breakdown Chart**<br>• Interactive Recharts bar visualization showing daily revenue, cost, and net profit<br>• Detailed hover tooltips showing line-by-line metrics per calendar date |
+
+| ⚙️ Store Configuration & Local AI Status |
+|:---:|
+| [![Store Settings](docs/screenshots/08_store_settings.png)](docs/screenshots/08_store_settings.png) |
+| **Figure 4.3: Shop Profile & Settings**<br>• Custom store identity (*Bismillah Kiryana Store*, Haji Muhammad Aslam, Lahore)<br>• Locked Pakistani Rupee (`Rs.`) standard and global safety thresholds<br>• Local Gemma 3 AI connectivity status and 1-click Demo Data Reset |
 
 ---
 
