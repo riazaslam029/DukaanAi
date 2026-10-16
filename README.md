@@ -16,7 +16,23 @@ Phase 1 establishes a rock-solid, fully typed full-stack foundation with an arch
 - **Expenses Ledger**: Record daily store operational expenditures (Shop Rent, LESCO/K-Electric Electricity Bills, Helper Wages, Chai/Refreshments, Goods Rickshaw Carriage, Packaging Bags), categorized with percentage distribution.
 - **Financial Reports & P&L**: Filter by Today, Yesterday, Last 7 Days, Last 30 Days, or This Month. View Total Revenue, Wholesale Cost of Goods Sold (COGS), Gross Profit, Operating Expenses, Net Margin %, top 10 revenue-generating products, expense breakdowns, payment method splits, and instant CSV export (Sales, Expenses, Inventory).
 - **Store Settings & Pakistani Retail Defaults**: Configured for PKR (`Rs.`), store name, shopkeeper name, address, customizable receipt footer ("JazakAllah Khair!"), and global low-stock threshold. Includes a 1-click **Reset Demo Data** button for hackathon demonstrations.
-- **Phase 2 Gemma / Ollama Ready**: Clean decoupled `AIService` interface (`GET /api/ai/status`, `POST /api/ai/query`) that detects local Ollama servers running `gemma2:2b`, while providing deterministic retail heuristic guidance when offline.
+- **Phase 2 Gemma / Ollama Ready**: Clean decoupled `AIService` interface (`GET /api/ai/status`, `POST /api/ai/query`) that automatically detects local Ollama servers running `gemma3:1b`, while providing deterministic retail heuristic guidance when offline.
+
+---
+
+## 📸 Application Screenshots & Walkthrough
+
+| **1. Store Dashboard & Real-Time KPIs** | **2. 7-Day Revenue vs. Expenses Trend Chart** |
+|:---:|:---:|
+| ![Dashboard Overview](docs/screenshots/01_dashboard_overview.png) | ![Revenue Trend](docs/screenshots/02_dashboard_trend_chart.png) |
+
+| **3. Inventory Catalog & Low-Stock Alerts** | **4. Counter Point of Sale (POS) & Cart** |
+|:---:|:---:|
+| ![Inventory Management](docs/screenshots/03_inventory_management.png) | ![Point of Sale](docs/screenshots/04_point_of_sale_pos.png) |
+
+| **5. Operating Expenses Ledger & Breakdown** |
+|:---:|
+| ![Business Expenses Ledger](docs/screenshots/05_business_expenses.png) |
 
 ---
 
@@ -29,7 +45,7 @@ Phase 1 establishes a rock-solid, fully typed full-stack foundation with an arch
 | **Database** | SQLite with SQLAlchemy 2.0 ORM |
 | **Validation** | Pydantic v2 schemas |
 | **Currency** | Pakistani Rupee (PKR / `Rs.`), `en-PK` international formatting |
-| **AI Integration** | Phase 2 Gemma 2 (2B) open-weight model via local Ollama (zero paid APIs) |
+| **AI Integration** | Phase 2 Gemma 3 (1B) open-weight model via local Ollama (zero paid APIs) |
 
 ---
 
