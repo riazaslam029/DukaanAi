@@ -258,6 +258,6 @@ ALL 8 VERIFICATION CHECKS PASSED!
 
 DukaanAI is pre-architected to integrate Google's **Gemma open-weight model** via local **Ollama** in Phase 2:
 1. **Download Ollama for Windows**: From [ollama.com](https://ollama.com).
-2. **Pull Gemma**: Run `ollama run gemma2:2b` in your terminal.
+2. **Pull Gemma**: Run `ollama run gemma3:1b` in your terminal.
 3. **Seamless Handshake**: DukaanAI's `AIService` automatically detects the local Ollama instance on port 11434 and switches from heuristic guidance to local Gemma 2 reasoning.
 4. **Privacy Guaranteed**: All retail and financial data remains 100% on the shopkeeper's Windows machine. No paid cloud tokens or subscriptions.
